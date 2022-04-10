@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SpaceX</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="logo.png" alt=" /">
+            </a> |
+            <a href="spaceship.html">
+                The Spaceships
+            </a> |
+            <a href="hire_us.html">
+                Hire Us
+            </a> 
+        </nav>
+        <hr />
+    </header>
+
+    <section>
+        <h1>Hire us now!</h1>
+        <p>Leave a message to request one of our services and we will get back to to you as soon as possible</p>
+    </section>
+
+    <section>
+    <form>
+        <div class="infos">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /> - 
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" /> - 
+        </div>
+
+        <div class="service">
+        <label for="spaceship">Spaceship:</label>
+        <select name="spaceship" id="spaceship">
+            <option value="falcon_9">Falcon 9</option>
+            <option value="falcon_heavy">Falcon Heavy</option>
+        </select>
+        <label for="service">Type of Service</label>
+        <input type="search" name="service" id="service" />
+        <datalist id="services">
+            <option value="1 Spaceship Repair"></option>
+            <option value="2 Spaceship Location"></option>
+            <option value="3 Spaceship Sale"></option>
+            <option value="4 Spaceship Sale"></option>
+        </datalist>
+        </div>
+
+        <div class="submit">
+            <input type="submit" name value="Send Message" />
+        </div>
+    </form> 
+    </section>
+</div>
+</body>
+</html>
